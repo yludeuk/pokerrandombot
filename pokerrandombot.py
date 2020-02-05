@@ -20,7 +20,7 @@ players_collection = db['lepers']
 
 @bot.message_handler(commands=['start', 'help'])
 def handle_start_help(message):
-    result = "Привет! Я бот-рандомизаторов игроков в покер!\r\nЯ поддерживаю следующие команды:"
+    result = "Привет! Я бот-рандомизатор игроков в покер!\r\nЯ поддерживаю следующие команды:"
     result += "\r\n/start - запустить бота"
     result += "\r\n/setplayers <список игроков> - установить актуальный список игроков для жеребьевки (ввод через пробел)"
     result += "\r\n/getplayers - посмотреть актуальный список"
